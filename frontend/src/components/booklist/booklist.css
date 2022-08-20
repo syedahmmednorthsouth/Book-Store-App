@@ -1,0 +1,70 @@
+#App {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 65px;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.App-header .display-1 {
+  font-size: 3rem;
+}
+
+.user-container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 1.8rem;
+  padding: 20px 0px 40px 112px;
+}
+
+.info-item {
+  width: 200px;
+  line-height: 12px;
+  padding: 35px;
+  border: 2px solid #a78d8e;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  margin: 0px 0px 15px 0px;
+}
+
+.display-1 {
+  font-size: 3rem;
+}
+
+.card1 {
+  margin: 20px 0px 10px 470px;
+}
+
+.card1 .card-body1 {
+  border: 2px solid #5da1bd;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=booklist.css.map */
